@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Preparar repositorio
-        run: actions/checkout@v4
+        uses: actions/checkout@v4
       - name: "PASO 1 Estructura de carpeta"
         run: |
           test -d app
